@@ -1,0 +1,21 @@
+INFORMACIÓN DE ACCIDENTES DECLARADOS
+
+Fecha del Accidente: 25 de mayo de 2026
+Lugar del Accidente: Av. Eloy Alfaro, Quito
+
+Tipo de Accidente:
+☒ Choque lateral
+
+Nivel de Gravedad:
+☐ Leve
+
+Descripción del Accidente: Roce lateral en parqueadero.
+Daños Reportados en el Vehículo:
+☒ Espejo Retrovisor
+
+DATOS DEL VEHÍCULO
+Número de Placa: XYZ-9876
+Número VIN / Chasis: VIN1090ONIX
+Marca: Chevrolet
+Modelo: Onix
+Año: 2025

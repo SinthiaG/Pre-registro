@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<factura id="comprobante" version="2.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>TALLER PRUEBA S.A.</razonSocial>
+    <ruc>1799999999001</ruc>
+    <FactId>FAC1089</FactId>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>1089</secuencial>
+    <dirMatriz>QUITO</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>25/05/2026</fechaEmision>
+    <dirEstablecimiento>QUITO</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>ASEGURADORA S.A.</razonSocialComprador>
+    <identificacionComprador>1790010020001</identificacionComprador>
+    <importeTotal>5750.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <placa>ABC-1234</placa>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <descripcion>Puerta Delantera</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>5000.00</precioUnitario>
+      <precioTotalSinImpuesto>5000.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>5000.00</baseImponible>
+          <valor>750.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="OrderID">OI-2026-1089</campoAdicional>
+    <campoAdicional nombre="PLACA">ABC-1234</campoAdicional>
+    <campoAdicional nombre="MARCA">Toyota</campoAdicional>
+    <campoAdicional nombre="MODELO">Corolla</campoAdicional>
+  </infoAdicional>
+</factura>

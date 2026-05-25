@@ -1,0 +1,15 @@
+ORDEN DE INGRESO DEL VEHÍCULO
+DATOS DE LA ORDEN DE INGRESO
+N° Orden de Ingreso: OI-2026-1090
+Fecha de Ingreso: 25 de mayo de 2026
+Estado del Documento: ☒ Registrado
+
+DATOS DEL PROPIETARIO
+Nombres y Apellidos: Maria Garcia
+Cédula / Identificación: 0987654321
+
+DATOS DEL VEHÍCULO
+Número de Placa: XYZ-9876
+Marca: Chevrolet
+Modelo: Onix
+Año: 2025

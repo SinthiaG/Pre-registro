@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<factura id="comprobante" version="2.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>TALLER PRUEBA S.A.</razonSocial>
+    <ruc>1799999999001</ruc>
+    <FactId>FAC1090</FactId>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>1090</secuencial>
+    <dirMatriz>QUITO</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>25/05/2026</fechaEmision>
+    <dirEstablecimiento>QUITO</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>ASEGURADORA S.A.</razonSocialComprador>
+    <identificacionComprador>1790010020001</identificacionComprador>
+    <importeTotal>460.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <placa>XYZ-9876</placa>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <descripcion>Espejo Retrovisor</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>200.00</precioUnitario>
+      <precioTotalSinImpuesto>200.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>200.00</baseImponible>
+          <valor>30.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <descripcion>Espejo Retrovisor</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>200.00</precioUnitario>
+      <precioTotalSinImpuesto>200.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>200.00</baseImponible>
+          <valor>30.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="OrderID">OI-2026-1090</campoAdicional>
+    <campoAdicional nombre="PLACA">XYZ-9876</campoAdicional>
+    <campoAdicional nombre="MARCA">Chevrolet</campoAdicional>
+    <campoAdicional nombre="MODELO">Onix</campoAdicional>
+  </infoAdicional>
+</factura>

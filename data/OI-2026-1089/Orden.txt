@@ -1,0 +1,18 @@
+ORDEN DE INGRESO DEL VEHÍCULO
+DATOS DE LA ORDEN DE INGRESO
+N° Orden de Ingreso: OI-2026-1089
+Fecha de Ingreso: 25 de mayo de 2026
+Estado del Documento: ☒ Registrado
+Observaciones Generales: Ingreso por choque posterior.
+
+DATOS DEL PROPIETARIO
+Nombres y Apellidos: Juan Perez
+Cédula / Identificación: 1234567890
+
+DATOS DEL VEHÍCULO
+Número de Placa: ABC-1234
+Marca: Toyota
+Modelo: Corolla
+Año: 2024
+Color: Blanco
+Tipo de Vehículo: Sedan
