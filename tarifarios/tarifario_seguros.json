@@ -1,0 +1,704 @@
+[
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Puerta Delantera",
+        "categoria": "Repuesto",
+        "precio_acordado": 1092.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Espejo Retrovisor",
+        "categoria": "Repuesto",
+        "precio_acordado": 312.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Cristal de Puerta",
+        "categoria": "Repuesto",
+        "precio_acordado": 218.4
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Mano de Obra Pintura (por pa\u00f1o)",
+        "categoria": "Servicio",
+        "precio_acordado": 468.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Ajuste Mec\u00e1nico de Bisagras",
+        "categoria": "Servicio",
+        "precio_acordado": 187.2
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Guardafango Delantero",
+        "categoria": "Repuesto",
+        "precio_acordado": 280.8
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Parachoques Delantero",
+        "categoria": "Repuesto",
+        "precio_acordado": 702.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Faros Delanteros (Par)",
+        "categoria": "Repuesto",
+        "precio_acordado": 936.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Mano de Obra Enderezado",
+        "categoria": "Servicio",
+        "precio_acordado": 390.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Kit de Grapas y Clips",
+        "categoria": "Repuesto",
+        "precio_acordado": 70.2
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "L\u00edquido de Frenos",
+        "categoria": "Repuesto",
+        "precio_acordado": 23.4
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Cambio de Aceite y Filtro",
+        "categoria": "Servicio",
+        "precio_acordado": 132.6
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Revisi\u00f3n Sistema El\u00e9ctrico",
+        "categoria": "Servicio",
+        "precio_acordado": 93.6
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Puerta Delantera",
+        "categoria": "Repuesto",
+        "precio_acordado": 1092.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Espejo Retrovisor",
+        "categoria": "Repuesto",
+        "precio_acordado": 312.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Cristal de Puerta",
+        "categoria": "Repuesto",
+        "precio_acordado": 218.4
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Mano de Obra Pintura (por pa\u00f1o)",
+        "categoria": "Servicio",
+        "precio_acordado": 468.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Ajuste Mec\u00e1nico de Bisagras",
+        "categoria": "Servicio",
+        "precio_acordado": 187.2
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Guardafango Delantero",
+        "categoria": "Repuesto",
+        "precio_acordado": 280.8
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Parachoques Delantero",
+        "categoria": "Repuesto",
+        "precio_acordado": 702.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Faros Delanteros (Par)",
+        "categoria": "Repuesto",
+        "precio_acordado": 936.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Mano de Obra Enderezado",
+        "categoria": "Servicio",
+        "precio_acordado": 390.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Kit de Grapas y Clips",
+        "categoria": "Repuesto",
+        "precio_acordado": 70.2
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "L\u00edquido de Frenos",
+        "categoria": "Repuesto",
+        "precio_acordado": 23.4
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Cambio de Aceite y Filtro",
+        "categoria": "Servicio",
+        "precio_acordado": 132.6
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Revisi\u00f3n Sistema El\u00e9ctrico",
+        "categoria": "Servicio",
+        "precio_acordado": 93.6
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "RAV4",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Puerta Delantera",
+        "categoria": "Repuesto",
+        "precio_acordado": 1092.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "RAV4",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Espejo Retrovisor",
+        "categoria": "Repuesto",
+        "precio_acordado": 312.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "RAV4",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Cristal de Puerta",
+        "categoria": "Repuesto",
+        "precio_acordado": 218.4
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "RAV4",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Mano de Obra Pintura (por pa\u00f1o)",
+        "categoria": "Servicio",
+        "precio_acordado": 468.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "RAV4",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Ajuste Mec\u00e1nico de Bisagras",
+        "categoria": "Servicio",
+        "precio_acordado": 187.2
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "RAV4",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Guardafango Delantero",
+        "categoria": "Repuesto",
+        "precio_acordado": 280.8
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "RAV4",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Parachoques Delantero",
+        "categoria": "Repuesto",
+        "precio_acordado": 702.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "RAV4",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Faros Delanteros (Par)",
+        "categoria": "Repuesto",
+        "precio_acordado": 936.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "RAV4",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Mano de Obra Enderezado",
+        "categoria": "Servicio",
+        "precio_acordado": 390.0
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "RAV4",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Kit de Grapas y Clips",
+        "categoria": "Repuesto",
+        "precio_acordado": 70.2
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "RAV4",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "L\u00edquido de Frenos",
+        "categoria": "Repuesto",
+        "precio_acordado": 23.4
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "RAV4",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Cambio de Aceite y Filtro",
+        "categoria": "Servicio",
+        "precio_acordado": 132.6
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "RAV4",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Revisi\u00f3n Sistema El\u00e9ctrico",
+        "categoria": "Servicio",
+        "precio_acordado": 93.6
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Puerta Delantera",
+        "categoria": "Repuesto",
+        "precio_acordado": 910.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Espejo Retrovisor",
+        "categoria": "Repuesto",
+        "precio_acordado": 260.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Cristal de Puerta",
+        "categoria": "Repuesto",
+        "precio_acordado": 182.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Mano de Obra Pintura (por pa\u00f1o)",
+        "categoria": "Servicio",
+        "precio_acordado": 390.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Ajuste Mec\u00e1nico de Bisagras",
+        "categoria": "Servicio",
+        "precio_acordado": 156.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Guardafango Delantero",
+        "categoria": "Repuesto",
+        "precio_acordado": 234.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Parachoques Delantero",
+        "categoria": "Repuesto",
+        "precio_acordado": 585.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Faros Delanteros (Par)",
+        "categoria": "Repuesto",
+        "precio_acordado": 780.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Mano de Obra Enderezado",
+        "categoria": "Servicio",
+        "precio_acordado": 325.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Kit de Grapas y Clips",
+        "categoria": "Repuesto",
+        "precio_acordado": 58.5
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "L\u00edquido de Frenos",
+        "categoria": "Repuesto",
+        "precio_acordado": 19.5
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Cambio de Aceite y Filtro",
+        "categoria": "Servicio",
+        "precio_acordado": 110.5
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Revisi\u00f3n Sistema El\u00e9ctrico",
+        "categoria": "Servicio",
+        "precio_acordado": 78.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Silverado",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Puerta Delantera",
+        "categoria": "Repuesto",
+        "precio_acordado": 910.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Silverado",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Espejo Retrovisor",
+        "categoria": "Repuesto",
+        "precio_acordado": 260.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Silverado",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Cristal de Puerta",
+        "categoria": "Repuesto",
+        "precio_acordado": 182.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Silverado",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Mano de Obra Pintura (por pa\u00f1o)",
+        "categoria": "Servicio",
+        "precio_acordado": 390.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Silverado",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Ajuste Mec\u00e1nico de Bisagras",
+        "categoria": "Servicio",
+        "precio_acordado": 156.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Silverado",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Guardafango Delantero",
+        "categoria": "Repuesto",
+        "precio_acordado": 234.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Silverado",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Parachoques Delantero",
+        "categoria": "Repuesto",
+        "precio_acordado": 585.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Silverado",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Faros Delanteros (Par)",
+        "categoria": "Repuesto",
+        "precio_acordado": 780.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Silverado",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Mano de Obra Enderezado",
+        "categoria": "Servicio",
+        "precio_acordado": 325.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Silverado",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Kit de Grapas y Clips",
+        "categoria": "Repuesto",
+        "precio_acordado": 58.5
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Silverado",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "L\u00edquido de Frenos",
+        "categoria": "Repuesto",
+        "precio_acordado": 19.5
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Silverado",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Cambio de Aceite y Filtro",
+        "categoria": "Servicio",
+        "precio_acordado": 110.5
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Silverado",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Revisi\u00f3n Sistema El\u00e9ctrico",
+        "categoria": "Servicio",
+        "precio_acordado": 78.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Tracker",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Puerta Delantera",
+        "categoria": "Repuesto",
+        "precio_acordado": 910.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Tracker",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Espejo Retrovisor",
+        "categoria": "Repuesto",
+        "precio_acordado": 260.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Tracker",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Cristal de Puerta",
+        "categoria": "Repuesto",
+        "precio_acordado": 182.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Tracker",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Mano de Obra Pintura (por pa\u00f1o)",
+        "categoria": "Servicio",
+        "precio_acordado": 390.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Tracker",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Ajuste Mec\u00e1nico de Bisagras",
+        "categoria": "Servicio",
+        "precio_acordado": 156.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Tracker",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Guardafango Delantero",
+        "categoria": "Repuesto",
+        "precio_acordado": 234.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Tracker",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Parachoques Delantero",
+        "categoria": "Repuesto",
+        "precio_acordado": 585.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Tracker",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Faros Delanteros (Par)",
+        "categoria": "Repuesto",
+        "precio_acordado": 780.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Tracker",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Mano de Obra Enderezado",
+        "categoria": "Servicio",
+        "precio_acordado": 325.0
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Tracker",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Kit de Grapas y Clips",
+        "categoria": "Repuesto",
+        "precio_acordado": 58.5
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Tracker",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "L\u00edquido de Frenos",
+        "categoria": "Repuesto",
+        "precio_acordado": 19.5
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Tracker",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Cambio de Aceite y Filtro",
+        "categoria": "Servicio",
+        "precio_acordado": 110.5
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Tracker",
+        "a\u00f1o": 2026,
+        "tipo_siniestro": "Colisi\u00f3n Lateral",
+        "item": "Revisi\u00f3n Sistema El\u00e9ctrico",
+        "categoria": "Servicio",
+        "precio_acordado": 78.0
+    }
+]
