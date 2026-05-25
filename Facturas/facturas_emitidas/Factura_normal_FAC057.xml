@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<factura id="comprobante" version="2.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>TALLER LOS PINOS S.A.</razonSocial>
+    <nombreComercial>TALLER LOS PINOS S.A.</nombreComercial>
+    <ruc>1792145632001</ruc>
+    <FactId>FAC057</FactId>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>010</ptoEmi>
+    <secuencial>111315057</secuencial>
+    <dirMatriz>AV. DE LOS GRANADOS</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>25/05/2026</fechaEmision>
+    <dirEstablecimiento>AV. DE LOS GRANADOS</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>ASEGURADORA GENIAL S.A.</razonSocialComprador>
+    <identificacionComprador>1790010020001</identificacionComprador>
+    <direccionComprador>AV. AMAZONAS N32</direccionComprador>
+    <totalSinImpuestos>2886.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>2886.00</baseImponible>
+        <tarifa>15</tarifa>
+        <valor>432.90</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>3318.90</importeTotal>
+    <moneda>DOLAR</moneda>
+    <placa>ZSY-7156</placa>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>3318.90</total>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>4078</codigoPrincipal>
+      <descripcion>Guardafango Delantero</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>280.80</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>280.80</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>280.80</baseImponible>
+          <valor>42.12</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>8053</codigoPrincipal>
+      <descripcion>Mano de Obra Pintura (por paño)</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>468.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>468.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>468.00</baseImponible>
+          <valor>70.20</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5286</codigoPrincipal>
+      <descripcion>Parachoques Delantero</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>702.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>702.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>702.00</baseImponible>
+          <valor>105.30</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>2759</codigoPrincipal>
+      <descripcion>Espejo Retrovisor</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>312.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>312.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>312.00</baseImponible>
+          <valor>46.80</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>9623</codigoPrincipal>
+      <descripcion>Ajuste Mecánico de Bisagras</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>187.20</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>187.20</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>187.20</baseImponible>
+          <valor>28.08</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>1006</codigoPrincipal>
+      <descripcion>Faros Delanteros (Par)</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>936.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>936.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>936.00</baseImponible>
+          <valor>140.40</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="OrderID">OI-2026-1057</campoAdicional>
+    <campoAdicional nombre="PLACA">ZSY-7156</campoAdicional>
+    <campoAdicional nombre="MARCA">Toyota</campoAdicional>
+    <campoAdicional nombre="MODELO">RAV4</campoAdicional>
+  </infoAdicional>
+</factura>

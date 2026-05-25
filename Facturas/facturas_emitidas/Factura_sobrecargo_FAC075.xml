@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<factura id="comprobante" version="2.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>TALLER LOS PINOS S.A.</razonSocial>
+    <nombreComercial>TALLER LOS PINOS S.A.</nombreComercial>
+    <ruc>1792145632001</ruc>
+    <FactId>FAC075</FactId>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>010</ptoEmi>
+    <secuencial>111315075</secuencial>
+    <dirMatriz>AV. DE LOS GRANADOS</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>25/05/2026</fechaEmision>
+    <dirEstablecimiento>AV. DE LOS GRANADOS</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>ASEGURADORA GENIAL S.A.</razonSocialComprador>
+    <identificacionComprador>1790010020001</identificacionComprador>
+    <direccionComprador>AV. AMAZONAS N32</direccionComprador>
+    <totalSinImpuestos>2671.50</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>2671.50</baseImponible>
+        <tarifa>15</tarifa>
+        <valor>400.72</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>3072.22</importeTotal>
+    <moneda>DOLAR</moneda>
+    <placa>ZSY-7174</placa>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>3072.22</total>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>3591</codigoPrincipal>
+      <descripcion>Cristal de Puerta</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>273.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>273.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>273.00</baseImponible>
+          <valor>40.95</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>1950</codigoPrincipal>
+      <descripcion>Cambio de Aceite y Filtro</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>165.75</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>165.75</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>165.75</baseImponible>
+          <valor>24.86</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>3403</codigoPrincipal>
+      <descripcion>Líquido de Frenos</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>29.25</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>29.25</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>29.25</baseImponible>
+          <valor>4.39</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>1594</codigoPrincipal>
+      <descripcion>Puerta Delantera</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>1365.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>1365.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>1365.00</baseImponible>
+          <valor>204.75</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>8498</codigoPrincipal>
+      <descripcion>Guardafango Delantero</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>351.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>351.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>351.00</baseImponible>
+          <valor>52.65</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>4057</codigoPrincipal>
+      <descripcion>Mano de Obra Enderezado</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>487.50</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>487.50</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>487.50</baseImponible>
+          <valor>73.12</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="OrderID">OI-2026-1075</campoAdicional>
+    <campoAdicional nombre="PLACA">ZSY-7174</campoAdicional>
+    <campoAdicional nombre="MARCA">Toyota</campoAdicional>
+    <campoAdicional nombre="MODELO">RAV4</campoAdicional>
+  </infoAdicional>
+</factura>
