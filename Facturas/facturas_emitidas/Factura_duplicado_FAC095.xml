@@ -1,0 +1,173 @@
+<?xml version="1.0" ?>
+<factura id="comprobante" version="2.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>TALLER LOS PINOS S.A.</razonSocial>
+    <nombreComercial>TALLER LOS PINOS S.A.</nombreComercial>
+    <ruc>1792145632001</ruc>
+    <FactId>FAC095</FactId>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>010</ptoEmi>
+    <secuencial>111315095</secuencial>
+    <dirMatriz>AV. DE LOS GRANADOS</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>25/05/2026</fechaEmision>
+    <dirEstablecimiento>AV. DE LOS GRANADOS</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>ASEGURADORA GENIAL S.A.</razonSocialComprador>
+    <identificacionComprador>1790010020001</identificacionComprador>
+    <direccionComprador>AV. AMAZONAS N32</direccionComprador>
+    <totalSinImpuestos>2151.50</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>2151.50</baseImponible>
+        <tarifa>15</tarifa>
+        <valor>322.72</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>2474.22</importeTotal>
+    <moneda>DOLAR</moneda>
+    <placa>ZSY-7194</placa>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>2474.22</total>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>7893</codigoPrincipal>
+      <descripcion>Revisión Sistema Eléctrico</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>78.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>78.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>78.00</baseImponible>
+          <valor>11.70</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>2117</codigoPrincipal>
+      <descripcion>Parachoques Delantero</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>585.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>585.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>585.00</baseImponible>
+          <valor>87.75</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>4450</codigoPrincipal>
+      <descripcion>Puerta Delantera</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>910.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>910.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>910.00</baseImponible>
+          <valor>136.50</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5599</codigoPrincipal>
+      <descripcion>Guardafango Delantero</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>234.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>234.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>234.00</baseImponible>
+          <valor>35.10</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7717</codigoPrincipal>
+      <descripcion>Ajuste Mecánico de Bisagras</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>156.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>156.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>156.00</baseImponible>
+          <valor>23.40</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>4669</codigoPrincipal>
+      <descripcion>Cambio de Aceite y Filtro</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>110.50</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>110.50</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>110.50</baseImponible>
+          <valor>16.57</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>4208</codigoPrincipal>
+      <descripcion>Revisión Sistema Eléctrico</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>78.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>78.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>78.00</baseImponible>
+          <valor>11.70</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="OrderID">OI-2026-1095</campoAdicional>
+    <campoAdicional nombre="PLACA">ZSY-7194</campoAdicional>
+    <campoAdicional nombre="MARCA">Toyota</campoAdicional>
+    <campoAdicional nombre="MODELO">RAV4</campoAdicional>
+  </infoAdicional>
+</factura>

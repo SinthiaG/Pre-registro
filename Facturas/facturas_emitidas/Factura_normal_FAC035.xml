@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<factura id="comprobante" version="2.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>TALLER LOS PINOS S.A.</razonSocial>
+    <nombreComercial>TALLER LOS PINOS S.A.</nombreComercial>
+    <ruc>1792145632001</ruc>
+    <FactId>FAC035</FactId>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>010</ptoEmi>
+    <secuencial>111315035</secuencial>
+    <dirMatriz>AV. DE LOS GRANADOS</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>25/05/2026</fechaEmision>
+    <dirEstablecimiento>AV. DE LOS GRANADOS</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>ASEGURADORA GENIAL S.A.</razonSocialComprador>
+    <identificacionComprador>1790010020001</identificacionComprador>
+    <direccionComprador>AV. AMAZONAS N32</direccionComprador>
+    <totalSinImpuestos>1885.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>1885.00</baseImponible>
+        <tarifa>15</tarifa>
+        <valor>282.75</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>2167.75</importeTotal>
+    <moneda>DOLAR</moneda>
+    <placa>ZSY-7134</placa>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>2167.75</total>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>1234</codigoPrincipal>
+      <descripcion>Puerta Delantera</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>910.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>910.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>910.00</baseImponible>
+          <valor>136.50</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>3064</codigoPrincipal>
+      <descripcion>Mano de Obra Enderezado</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>325.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>325.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>325.00</baseImponible>
+          <valor>48.75</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>3924</codigoPrincipal>
+      <descripcion>Espejo Retrovisor</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>260.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>260.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>260.00</baseImponible>
+          <valor>39.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5335</codigoPrincipal>
+      <descripcion>Mano de Obra Pintura (por paño)</descripcion>
+      <cantidad>1.00000</cantidad>
+      <precioUnitario>390.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>390.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>390.00</baseImponible>
+          <valor>58.50</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="OrderID">OI-2026-1035</campoAdicional>
+    <campoAdicional nombre="PLACA">ZSY-7134</campoAdicional>
+    <campoAdicional nombre="MARCA">Toyota</campoAdicional>
+    <campoAdicional nombre="MODELO">RAV4</campoAdicional>
+  </infoAdicional>
+</factura>
