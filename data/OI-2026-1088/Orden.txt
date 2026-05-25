@@ -22,11 +22,11 @@ Dirección: Pifo
 Correo Electrónico: john.mclean@examplepetstore.com
 
 DATOS DEL VEHÍCULO
-Número de Placa: PBA-7890
+Número de Placa: ZSY-7187
 Número VIN / Chasis: 93HFX84A7GH123456
-Marca: Chevrolet
-Modelo: Grand Vitara SZ
+Marca: Toyota
+Modelo: RAV4
 Año: 2019
 Color: Gris Plata
 Tipo de Vehículo: SUV
-Kilometraje Actual: 85,420 km
+Kilometraje Actual: 85,420 kms
