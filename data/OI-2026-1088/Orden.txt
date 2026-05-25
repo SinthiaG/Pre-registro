@@ -1,0 +1,32 @@
+ORDEN DE INGRESO DEL VEHÍCULO
+INFORMACIÓN GENERAL
+El presente formulario tiene como finalidad registrar la recepción e ingreso del vehículo, así como recopilar información relevante relacionada con la identificación del automotor y propietario.
+Toda la información proporcionada será utilizada exclusivamente para fines administrativos, técnicos, legales y de control interno.
+
+DATOS DE LA ORDEN DE INGRESO
+N° Orden de Ingreso: OI-2026-1088
+Fecha de Ingreso: 22 de mayo de 2026
+Estado del Documento:
+☒ Registrado
+☐ Aprobado
+☐ Cerrado
+Fecha de Registro del Documento: 22/05/2026 11:00 AM
+Observaciones Generales: El vehículo ingresa para mantenimiento preventivo de los 85,000 km y revisión del sistema de frenos por presentar ruidos al frenar. Carrocería en buen estado, incluye llanta de emergencia y herramientas básicas.
+
+
+DATOS DEL PROPIETARIO
+Nombres y Apellidos: Carlos Alejandro Mendoza Ruiz
+Cédula / Identificación: 1723456789
+Teléfono: 099999999
+Dirección: Pifo
+Correo Electrónico: john.mclean@examplepetstore.com
+
+DATOS DEL VEHÍCULO
+Número de Placa: PBA-7890
+Número VIN / Chasis: 93HFX84A7GH123456
+Marca: Chevrolet
+Modelo: Grand Vitara SZ
+Año: 2019
+Color: Gris Plata
+Tipo de Vehículo: SUV
+Kilometraje Actual: 85,420 km
