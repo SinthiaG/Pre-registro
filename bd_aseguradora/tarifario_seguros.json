@@ -2,7 +2,7 @@
     {
         "marca": "Toyota",
         "modelo": "Corolla",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Puerta Delantera",
         "categoria": "Repuesto",
@@ -11,7 +11,7 @@
     {
         "marca": "Toyota",
         "modelo": "Corolla",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Espejo Retrovisor",
         "categoria": "Repuesto",
@@ -20,7 +20,7 @@
     {
         "marca": "Toyota",
         "modelo": "Corolla",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Cristal de Puerta",
         "categoria": "Repuesto",
@@ -29,7 +29,7 @@
     {
         "marca": "Toyota",
         "modelo": "Corolla",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Mano de Obra Pintura (por pa\u00f1o)",
         "categoria": "Servicio",
@@ -38,7 +38,7 @@
     {
         "marca": "Toyota",
         "modelo": "Corolla",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Ajuste Mec\u00e1nico de Bisagras",
         "categoria": "Servicio",
@@ -47,7 +47,7 @@
     {
         "marca": "Toyota",
         "modelo": "Corolla",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Guardafango Delantero",
         "categoria": "Repuesto",
@@ -56,7 +56,7 @@
     {
         "marca": "Toyota",
         "modelo": "Corolla",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Parachoques Delantero",
         "categoria": "Repuesto",
@@ -65,7 +65,7 @@
     {
         "marca": "Toyota",
         "modelo": "Corolla",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Faros Delanteros (Par)",
         "categoria": "Repuesto",
@@ -74,7 +74,7 @@
     {
         "marca": "Toyota",
         "modelo": "Corolla",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Mano de Obra Enderezado",
         "categoria": "Servicio",
@@ -83,7 +83,7 @@
     {
         "marca": "Toyota",
         "modelo": "Corolla",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Kit de Grapas y Clips",
         "categoria": "Repuesto",
@@ -92,7 +92,7 @@
     {
         "marca": "Toyota",
         "modelo": "Corolla",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "L\u00edquido de Frenos",
         "categoria": "Repuesto",
@@ -101,7 +101,7 @@
     {
         "marca": "Toyota",
         "modelo": "Corolla",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Cambio de Aceite y Filtro",
         "categoria": "Servicio",
@@ -110,7 +110,7 @@
     {
         "marca": "Toyota",
         "modelo": "Corolla",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Revisi\u00f3n Sistema El\u00e9ctrico",
         "categoria": "Servicio",
@@ -119,7 +119,7 @@
     {
         "marca": "Toyota",
         "modelo": "Hilux",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Puerta Delantera",
         "categoria": "Repuesto",
@@ -128,7 +128,7 @@
     {
         "marca": "Toyota",
         "modelo": "Hilux",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Espejo Retrovisor",
         "categoria": "Repuesto",
@@ -137,7 +137,7 @@
     {
         "marca": "Toyota",
         "modelo": "Hilux",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Cristal de Puerta",
         "categoria": "Repuesto",
@@ -146,7 +146,7 @@
     {
         "marca": "Toyota",
         "modelo": "Hilux",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Mano de Obra Pintura (por pa\u00f1o)",
         "categoria": "Servicio",
@@ -155,7 +155,7 @@
     {
         "marca": "Toyota",
         "modelo": "Hilux",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Ajuste Mec\u00e1nico de Bisagras",
         "categoria": "Servicio",
@@ -164,7 +164,7 @@
     {
         "marca": "Toyota",
         "modelo": "Hilux",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Guardafango Delantero",
         "categoria": "Repuesto",
@@ -173,7 +173,7 @@
     {
         "marca": "Toyota",
         "modelo": "Hilux",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Parachoques Delantero",
         "categoria": "Repuesto",
@@ -182,7 +182,7 @@
     {
         "marca": "Toyota",
         "modelo": "Hilux",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Faros Delanteros (Par)",
         "categoria": "Repuesto",
@@ -191,7 +191,7 @@
     {
         "marca": "Toyota",
         "modelo": "Hilux",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Mano de Obra Enderezado",
         "categoria": "Servicio",
@@ -200,7 +200,7 @@
     {
         "marca": "Toyota",
         "modelo": "Hilux",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Kit de Grapas y Clips",
         "categoria": "Repuesto",
@@ -209,7 +209,7 @@
     {
         "marca": "Toyota",
         "modelo": "Hilux",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "L\u00edquido de Frenos",
         "categoria": "Repuesto",
@@ -218,7 +218,7 @@
     {
         "marca": "Toyota",
         "modelo": "Hilux",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Cambio de Aceite y Filtro",
         "categoria": "Servicio",
@@ -227,7 +227,7 @@
     {
         "marca": "Toyota",
         "modelo": "Hilux",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Revisi\u00f3n Sistema El\u00e9ctrico",
         "categoria": "Servicio",
@@ -236,7 +236,7 @@
     {
         "marca": "Toyota",
         "modelo": "RAV4",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Puerta Delantera",
         "categoria": "Repuesto",
@@ -245,7 +245,7 @@
     {
         "marca": "Toyota",
         "modelo": "RAV4",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Espejo Retrovisor",
         "categoria": "Repuesto",
@@ -254,7 +254,7 @@
     {
         "marca": "Toyota",
         "modelo": "RAV4",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Cristal de Puerta",
         "categoria": "Repuesto",
@@ -263,7 +263,7 @@
     {
         "marca": "Toyota",
         "modelo": "RAV4",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Mano de Obra Pintura (por pa\u00f1o)",
         "categoria": "Servicio",
@@ -272,7 +272,7 @@
     {
         "marca": "Toyota",
         "modelo": "RAV4",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Ajuste Mec\u00e1nico de Bisagras",
         "categoria": "Servicio",
@@ -281,7 +281,7 @@
     {
         "marca": "Toyota",
         "modelo": "RAV4",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Guardafango Delantero",
         "categoria": "Repuesto",
@@ -290,7 +290,7 @@
     {
         "marca": "Toyota",
         "modelo": "RAV4",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Parachoques Delantero",
         "categoria": "Repuesto",
@@ -299,7 +299,7 @@
     {
         "marca": "Toyota",
         "modelo": "RAV4",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Faros Delanteros (Par)",
         "categoria": "Repuesto",
@@ -308,7 +308,7 @@
     {
         "marca": "Toyota",
         "modelo": "RAV4",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Mano de Obra Enderezado",
         "categoria": "Servicio",
@@ -317,7 +317,7 @@
     {
         "marca": "Toyota",
         "modelo": "RAV4",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Kit de Grapas y Clips",
         "categoria": "Repuesto",
@@ -326,7 +326,7 @@
     {
         "marca": "Toyota",
         "modelo": "RAV4",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "L\u00edquido de Frenos",
         "categoria": "Repuesto",
@@ -335,7 +335,7 @@
     {
         "marca": "Toyota",
         "modelo": "RAV4",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Cambio de Aceite y Filtro",
         "categoria": "Servicio",
@@ -344,7 +344,7 @@
     {
         "marca": "Toyota",
         "modelo": "RAV4",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Revisi\u00f3n Sistema El\u00e9ctrico",
         "categoria": "Servicio",
@@ -353,7 +353,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Onix",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Puerta Delantera",
         "categoria": "Repuesto",
@@ -362,7 +362,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Onix",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Espejo Retrovisor",
         "categoria": "Repuesto",
@@ -371,7 +371,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Onix",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Cristal de Puerta",
         "categoria": "Repuesto",
@@ -380,7 +380,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Onix",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Mano de Obra Pintura (por pa\u00f1o)",
         "categoria": "Servicio",
@@ -389,7 +389,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Onix",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Ajuste Mec\u00e1nico de Bisagras",
         "categoria": "Servicio",
@@ -398,7 +398,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Onix",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Guardafango Delantero",
         "categoria": "Repuesto",
@@ -407,7 +407,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Onix",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Parachoques Delantero",
         "categoria": "Repuesto",
@@ -416,7 +416,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Onix",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Faros Delanteros (Par)",
         "categoria": "Repuesto",
@@ -425,7 +425,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Onix",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Mano de Obra Enderezado",
         "categoria": "Servicio",
@@ -434,7 +434,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Onix",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Kit de Grapas y Clips",
         "categoria": "Repuesto",
@@ -443,7 +443,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Onix",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "L\u00edquido de Frenos",
         "categoria": "Repuesto",
@@ -452,7 +452,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Onix",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Cambio de Aceite y Filtro",
         "categoria": "Servicio",
@@ -461,7 +461,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Onix",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Revisi\u00f3n Sistema El\u00e9ctrico",
         "categoria": "Servicio",
@@ -470,7 +470,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Silverado",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Puerta Delantera",
         "categoria": "Repuesto",
@@ -479,7 +479,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Silverado",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Espejo Retrovisor",
         "categoria": "Repuesto",
@@ -488,7 +488,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Silverado",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Cristal de Puerta",
         "categoria": "Repuesto",
@@ -497,7 +497,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Silverado",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Mano de Obra Pintura (por pa\u00f1o)",
         "categoria": "Servicio",
@@ -506,7 +506,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Silverado",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Ajuste Mec\u00e1nico de Bisagras",
         "categoria": "Servicio",
@@ -515,7 +515,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Silverado",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Guardafango Delantero",
         "categoria": "Repuesto",
@@ -524,7 +524,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Silverado",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Parachoques Delantero",
         "categoria": "Repuesto",
@@ -533,7 +533,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Silverado",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Faros Delanteros (Par)",
         "categoria": "Repuesto",
@@ -542,7 +542,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Silverado",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Mano de Obra Enderezado",
         "categoria": "Servicio",
@@ -551,7 +551,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Silverado",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Kit de Grapas y Clips",
         "categoria": "Repuesto",
@@ -560,7 +560,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Silverado",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "L\u00edquido de Frenos",
         "categoria": "Repuesto",
@@ -569,7 +569,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Silverado",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Cambio de Aceite y Filtro",
         "categoria": "Servicio",
@@ -578,7 +578,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Silverado",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Revisi\u00f3n Sistema El\u00e9ctrico",
         "categoria": "Servicio",
@@ -587,7 +587,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Tracker",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Puerta Delantera",
         "categoria": "Repuesto",
@@ -596,7 +596,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Tracker",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Espejo Retrovisor",
         "categoria": "Repuesto",
@@ -605,7 +605,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Tracker",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Cristal de Puerta",
         "categoria": "Repuesto",
@@ -614,7 +614,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Tracker",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Mano de Obra Pintura (por pa\u00f1o)",
         "categoria": "Servicio",
@@ -623,7 +623,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Tracker",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Ajuste Mec\u00e1nico de Bisagras",
         "categoria": "Servicio",
@@ -632,7 +632,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Tracker",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Guardafango Delantero",
         "categoria": "Repuesto",
@@ -641,7 +641,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Tracker",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Parachoques Delantero",
         "categoria": "Repuesto",
@@ -650,7 +650,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Tracker",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Faros Delanteros (Par)",
         "categoria": "Repuesto",
@@ -659,7 +659,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Tracker",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Mano de Obra Enderezado",
         "categoria": "Servicio",
@@ -668,7 +668,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Tracker",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Kit de Grapas y Clips",
         "categoria": "Repuesto",
@@ -677,7 +677,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Tracker",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "L\u00edquido de Frenos",
         "categoria": "Repuesto",
@@ -686,7 +686,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Tracker",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Cambio de Aceite y Filtro",
         "categoria": "Servicio",
@@ -695,7 +695,7 @@
     {
         "marca": "Chevrolet",
         "modelo": "Tracker",
-        "a\u00f1o": 2026,
+        "anio": 2026,
         "tipo_siniestro": "Colisi\u00f3n Lateral",
         "item": "Revisi\u00f3n Sistema El\u00e9ctrico",
         "categoria": "Servicio",
