@@ -2,6 +2,7 @@ import os
 import logging
 from neo4j import GraphDatabase
 from dotenv import load_dotenv
+from openai import OpenAI
 
 # Configuración de logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -13,13 +14,15 @@ load_dotenv()
 NEO4J_URI = os.getenv("NEO4J_URI")
 NEO4J_USER = os.getenv("NEO4J_USERNAME")
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 class AuditorSiniestros:
-    def __init__(self, uri, user, password):
+    def __init__(self, uri, user, password, openai_key=None):
         try:
             self.driver = GraphDatabase.driver(uri, auth=(user, password))
             self.driver.verify_connectivity()
             logger.info("Conexión exitosa con Neo4j.")
+            self.llm_client = OpenAI(api_key=openai_key) if openai_key else None
         except Exception as e:
             logger.error(f"Error al conectar con Neo4j: {e}")
             raise
@@ -27,148 +30,134 @@ class AuditorSiniestros:
     def close(self):
         self.driver.close()
 
-    def auditar_factura(self, fac_id):
+    def auditar_con_llm(self, fac_id):
+        """
+        Realiza una auditoría avanzada usando el LLM (GPT-4o), extrayendo el contexto del grafo
+        y utilizando el archivo JSON del tarifario como fuente oficial de precios.
+        """
+        if not self.llm_client:
+            print("[ERROR] No se ha configurado la API Key de OpenAI para auditoría LLM.")
+            return
+
+        import json
+        print(f"\n[LLM] Iniciando Auditoría Inteligente para Factura: {fac_id}...")
+        
+        # 1. Cargar Tarifario Oficial desde JSON
+        try:
+            with open("bd_aseguradora/tarifario_seguros.json", "r", encoding="utf-8") as f:
+                tarifario_completo = json.load(f)
+        except Exception as e:
+            print(f"[ERROR] No se pudo cargar el tarifario JSON: {e}")
+            return
+
         with self.driver.session() as session:
-            # Obtener datos generales del vehículo
-            query_info = """
-            MATCH (f:Factura {facId: $fid})-[:PARA_VEHICULO]->(v:Vehiculo)
-            RETURN v.marca as marca, v.modelo as modelo, v.placa as placa
+            # 2. Extraer Contexto del Grafo
+            contexto_query = """
+            MATCH (f:Factura)
+            WHERE f.FactId = $fid OR f.facId = $fid
+            OPTIONAL MATCH (f)-[:PARA_VEHICULO]->(v:Vehiculo)
+            OPTIONAL MATCH (f)-[:BASADA_EN]->(oi:OrdenIngreso)-[:REGISTRA]->(acc:Accidente)
+            OPTIONAL MATCH (f)-[:CONTIENE]->(df:DetalleFactura)
+            OPTIONAL MATCH (acc)-[:TIENE_IMAGEN]->(img:Imagen)-[:TIENE_DETECCION]->(det:Deteccion)
+
+            WITH f, v, acc, 
+                 collect(distinct {item: df.desc, precio_cobrado: df.p}) as detalles,
+                 collect(distinct {descripcion: det.descripcion, confianza: det.confianza}) as detecciones
+            
+            RETURN {
+                factura: {id: coalesce(f.FactId, f.facId)},
+                vehiculo: {marca: v.marca, modelo: v.modelo, anio: v.anio, placa: v.placa},
+                accidente: {tipo: acc.tipoAccidente, descripcion: acc.descripcion, gravedad: acc.gravedad},
+                detalles_factura: detalles,
+                detecciones_ia: detecciones
+            } as contexto
             """
-            info = session.run(query_info, fid=fac_id).single()
             
-            print(f"\n====================================================")
-            print(f"--- AUDITANDO FACTURA: {fac_id} ---")
-            if info:
-                print(f"Vehículo: {info['marca']} {info['modelo']} (Placa: {info['placa']})")
-            print(f"====================================================\n")
-
-            # 1. Sobrecargos de Precio
-            self._check_sobrecargos(session, fac_id)
+            res = session.run(contexto_query, fid=fac_id).single()
+            if not res or not res['contexto']['factura']['id']:
+                print(f"No se encontró información suficiente en Neo4j para la factura {fac_id}.")
+                return
+                
+            contexto = res['contexto']
             
-            # 2. Ítems No Detectados en Imágenes
-            self._check_detecciones(session, fac_id)
+            # 3. Filtrar Tarifario para el vehículo y siniestro específico (Lógica Robusta)
+            marca_f = str(contexto['vehiculo'].get('marca') or "").strip().lower()
+            modelo_f = str(contexto['vehiculo'].get('modelo') or "").strip().lower()
+            anio_f = contexto['vehiculo'].get('anio')
+            tipo_siniestro_f = str(contexto['accidente'].get('tipo') or "").strip().lower()
             
-            # 3. Ítems Duplicados
-            self._check_duplicados(session, fac_id)
+            print(f"[DEBUG] Buscando tarifario para: {marca_f} {modelo_f} ({anio_f})")
+
+            # Intento 1: Match por Marca y Modelo (Independiente del año/siniestro para dar contexto al LLM)
+            tarifario_relevante = [
+                item for item in tarifario_completo 
+                if str(item.get('marca')).strip().lower() == marca_f 
+                and str(item.get('modelo')).strip().lower() == modelo_f
+            ]
+
+            # Intento 2: Si no hay match exacto de modelo, buscar por marca para al menos dar una idea de precios
+            if not tarifario_relevante:
+                print(f"[DEBUG] No hay match exacto para {modelo_f}. Buscando por marca {marca_f}...")
+                tarifario_relevante = [
+                    item for item in tarifario_completo 
+                    if str(item.get('marca')).strip().lower() == marca_f
+                ]
+
+            print(f"[DEBUG] Se encontraron {len(tarifario_relevante)} items de referencia en el tarifario.")
+
+            # 4. Construir Prompt para el LLM
+            prompt = f"""
+            Eres un experto auditor de siniestros vehiculares. Tu objetivo es detectar anomalías, fraudes o inconsistencias.
             
-            # 4. Ítems No Autorizados para el Tipo de Siniestro
-            self._check_autorizacion_siniestro(session, fac_id)
-
-    def _check_sobrecargos(self, session, fac_id):
-        print("\nA) Verificando Sobrecargos de Precio...")
-        query = """
-        MATCH (f:Factura {facId: $fid})-[:CONTIENE]->(df:DetalleFactura)
-        MATCH (f)-[:PARA_VEHICULO]->(v:Vehiculo)
-        MATCH (f)-[:BASADA_EN]->(oi:OrdenIngreso)-[:REGISTRA]->(acc:Accidente)
-        MATCH (ma:Marca {nombre: v.marca})-[:TIENE_MODELO]->(mo:Modelo {nombre: v.modelo, anio: v.anio})
-        MATCH (mo)-[:SUFRE]->(s:Siniestro {tipo: acc.tipoAccidente})
-        MATCH (s)-[rel:INCLUYE]->(i:Item {nombre: df.desc})
-        WHERE df.p > (rel.precio + 0.01)
-        RETURN df.desc as item, df.p as cobrado, rel.precio as acordado
-        """
-        results = session.run(query, fid=fac_id)
-        found = False
-        for record in results:
-            found = True
-            print(f"  [ALERTA] '{record['item']}' tiene sobrecargo: Cobrado ${record['cobrado']} | Acordado ${record['acordado']}")
-        if not found:
-            print("  ✓ Todos los precios cumplen con el tarifario.")
-
-    def _check_detecciones(self, session, fac_id):
-        print("\nB) Verificando Detecciones en Imágenes...")
-        query = """
-        MATCH (f:Factura {facId: $fid})-[:CONTIENE]->(df:DetalleFactura)
-        MATCH (f)-[:BASADA_EN]->(oi:OrdenIngreso)-[:REGISTRA]->(acc:Accidente)
-        OPTIONAL MATCH (acc)-[:TIENE_IMAGEN]->(img:Imagen)-[:TIENE_DETECCION]->(d:Deteccion)
-        WHERE toLower(d.descripcion) = toLower(df.desc)
-        WITH df, count(d) as num_detecciones
-        WHERE num_detecciones = 0
-        RETURN df.desc as item
-        """
-        results = session.run(query, fid=fac_id)
-        found = False
-        for record in results:
-            found = True
-            print(f"  [ALERTA] '{record['item']}' facturado pero NO detectado en las imágenes del siniestro.")
-        if not found:
-            print("  ✓ Todos los ítems facturados tienen evidencia visual detectada.")
-
-    def _check_duplicados(self, session, fac_id):
-        print("\nC) Verificando Ítems Duplicados por Orden de Ingreso...")
-        query = """
-        MATCH (f1:Factura)-[:CONTIENE]->(d1:DetalleFactura)
-        MATCH (f2:Factura)-[:CONTIENE]->(d2:DetalleFactura)
-        WHERE d1.desc = d2.desc AND elementId(d1) < elementId(d2)
-        MATCH (f1)-[:BASADA_EN]->(oi:OrdenIngreso)
-        MATCH (f2)-[:BASADA_EN]->(oi)
-        WHERE f1.facId = $fid OR f2.facId = $fid
-        RETURN d1.desc as item, f1.facId as f1, f2.facId as f2
-        """
-        results = session.run(query, fid=fac_id)
-        found = False
-        for record in results:
-            found = True
-            if record['f1'] == record['f2']:
-                print(f"  [ALERTA] '{record['item']}' duplicado dentro de la misma factura.")
-            else:
-                otra = record['f2'] if record['f1'] == fac_id else record['f1']
-                print(f"  [ALERTA] '{record['item']}' ya fue cobrado en la factura {otra}.")
-        if not found:
-            print("  ✓ No se detectaron ítems duplicados.")
-
-    def _check_autorizacion_siniestro(self, session, fac_id):
-        print("\nD) Verificando Autorización por Tipo de Siniestro...")
-        query = """
-        MATCH (f:Factura {facId: $fid})-[:CONTIENE]->(df:DetalleFactura)
-        MATCH (f)-[:PARA_VEHICULO]->(v:Vehiculo)
-        MATCH (f)-[:BASADA_EN]->(oi:OrdenIngreso)-[:REGISTRA]->(acc:Accidente)
-        MATCH (ma:Marca {nombre: v.marca})-[:TIENE_MODELO]->(mo:Modelo {nombre: v.modelo, anio: v.anio})
-        MATCH (mo)-[:SUFRE]->(s:Siniestro {tipo: acc.tipoAccidente})
-        WHERE NOT (s)-[:INCLUYE]->(:Item {nombre: df.desc})
-        RETURN df.desc as item, s.tipo as tipo_siniestro
-        """
-        results = session.run(query, fid=fac_id)
-        found = False
-        for record in results:
-            found = True
-            print(f"  [ALERTA] '{record['item']}' no es un ítem autorizado para un siniestro tipo '{record['tipo_siniestro']}'.")
-        if not found:
-            print("  ✓ Todos los ítems son consistentes con el tipo de siniestro.")
-
-    def procesar_consulta_ln(self, mensaje):
-        """
-        Interfaz de lenguaje natural para procesar consultas.
-        Busca patrones de IDs de facturas (ej: FAC001) o palabras clave.
-        """
-        import re
-        print(f"\n> Procesando consulta: '{mensaje}'")
-        
-        # Buscar IDs de factura con patrón FAC + números
-        facturas_encontradas = re.findall(r'FAC\d+', mensaje.upper())
-        
-        if facturas_encontradas:
-            for fid in facturas_encontradas:
-                self.auditar_factura(fid)
-        elif "TODO" in mensaje.upper() or "TODAS" in mensaje.upper() or "SINIESTRO" in mensaje.upper():
-            print("Identificada solicitud global. Auditando últimas facturas...")
-            with self.driver.session() as session:
-                res = session.run("MATCH (f:Factura) RETURN f.facId as id ORDER BY f.facId DESC LIMIT 5")
-                for r in res:
-                    self.auditar_factura(r['id'])
-        else:
-            print("No pude identificar una factura específica. Intenta con algo como: 'Verifica la factura FAC001'")
+            --- CONTEXTO DEL SINIESTRO (Desde Neo4j) ---
+            - Vehículo: {contexto['vehiculo']}
+            - Accidente Reportado: {contexto['accidente']}
+            
+            --- DATOS DE FACTURACIÓN (Desde Neo4j) ---
+            - Items Facturados: {contexto['detalles_factura']}
+            
+            --- TARIFARIO OFICIAL DE REFERENCIA (Desde JSON) ---
+            - Precios Acordados: {tarifario_relevante}
+            
+            --- EVIDENCIA VISUAL (Desde Neo4j - IA) ---
+            - Detecciones encontradas en fotos: {contexto['detecciones_ia']}
+            
+            --- TAREAS DE AUDITORÍA ---
+            1. SOBRECARGOS: Compara 'precio_cobrado' en la factura vs 'precio_acordado' en el tarifario JSON. Señala cualquier exceso.
+            2. EVIDENCIA VISUAL: Señala si un ítem facturado NO tiene una detección de la IA que lo respalde.
+            3. COHERENCIA DEL SINIESTRO: ¿Tienen sentido las piezas cambiadas dada la descripción del accidente?
+            4. INTEGRIDAD: Busca ítems duplicados o errores en la identidad del vehículo (Placa/Modelo).
+            
+            Responde con un informe profesional en formato Markdown. 
+            Finaliza con una recomendación clara: [APROBADA], [RECHAZADA] o [REVISIÓN MANUAL].
+            """
+            
+            try:
+                response = self.llm_client.chat.completions.create(
+                    model="gpt-4o",
+                    messages=[
+                        {"role": "system", "content": "Eres un auditor de seguros de alta precisión especializado en cruce de datos documentales, visuales y financieros."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    temperature=0
+                )
+                
+                reporte = response.choices[0].message.content
+                print("\n" + "="*50)
+                print(f"REPORTE DE AUDITORÍA INTELIGENTE: {fac_id}")
+                print("="*50)
+                print(reporte)
+                print("="*50 + "\n")
+            except Exception as e:
+                print(f"Error al llamar a la API de OpenAI: {e}")
 
 if __name__ == "__main__":
-    # Inicializar auditor
-    auditor = AuditorSiniestros(NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD)
+    # Inicializar auditor con credenciales
+    auditor = AuditorSiniestros(NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD, OPENAI_API_KEY)
     
-    # Ejemplo de uso con lenguaje natural
-    consultas_ejemplo = [
-        "¿Hay alguna alerta en la factura FAC001?",
-        "Verifica si el siniestro tiene alertas de auditoria (revisar todas)",
-    ]
-    
-    for consulta in consultas_ejemplo:
-        auditor.procesar_consulta_ln(consulta)
+    # Ejemplo de ejecución: Auditar la factura deseada
+    # Nota: Asegúrate de que el facId exista en tu base de datos Neo4j
+    fac_id_test = "FAC088" 
+    auditor.auditar_con_llm(fac_id_test)
         
     auditor.close()
