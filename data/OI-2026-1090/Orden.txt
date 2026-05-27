@@ -12,4 +12,4 @@ DATOS DEL VEHÍCULO
 Número de Placa: XYZ-9876
 Marca: Chevrolet
 Modelo: Onix
-Año: 2025
+Año: 2026

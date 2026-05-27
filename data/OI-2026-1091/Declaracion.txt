@@ -1,7 +1,7 @@
 INFORMACIÓN DE ACCIDENTES DECLARADOS
 
 Fecha del Accidente: 25 de mayo de 2026
-Lugar del Accidente: Sector Cumbayá, Quito
+Lugar del Accidente: Av. Occidental, Quito
 
 Tipo de Accidente:
 ☒ Colisión Lateral
@@ -9,14 +9,13 @@ Tipo de Accidente:
 Nivel de Gravedad:
 ☒ Moderado
 
-Descripción del Accidente: Impacto fuerte en la parte delantera tras colisión frontal.
+Descripción del Accidente: Impacto lateral izquierdo contra otro vehículo.
 Daños Reportados en el Vehículo:
-☒ Guardachoque delantero
-☒ Faros delanteros
+☒ Puerta Delantera
 
 DATOS DEL VEHÍCULO
-Número de Placa: ABC-1234
-Número VIN / Chasis: VIN1089COROLLA
+Número de Placa: PDA-1091
+Número VIN / Chasis: VIN1091COROLLA
 Marca: Toyota
 Modelo: Corolla
 Año: 2026

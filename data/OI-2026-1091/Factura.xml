@@ -6,11 +6,11 @@
     <razonSocial>TALLER PRUEBA S.A.</razonSocial>
     <nombreComercial>TALLER PRUEBA S.A.</nombreComercial>
     <ruc>1799999999001</ruc>
-    <FactId>FAC1090</FactId>
+    <FactId>FAC1091</FactId>
     <codDoc>01</codDoc>
     <estab>001</estab>
     <ptoEmi>001</ptoEmi>
-    <secuencial>1090</secuencial>
+    <secuencial>1091</secuencial>
     <dirMatriz>QUITO</dirMatriz>
   </infoTributaria>
   <infoFactura>
@@ -21,68 +21,51 @@
     <razonSocialComprador>ASEGURADORA S.A.</razonSocialComprador>
     <identificacionComprador>1790010020001</identificacionComprador>
     <direccionComprador>AV. AMAZONAS N32</direccionComprador>
-    <totalSinImpuestos>520.00</totalSinImpuestos>
+    <totalSinImpuestos>1092.00</totalSinImpuestos>
     <totalDescuento>0.00</totalDescuento>
     <totalConImpuestos>
       <totalImpuesto>
         <codigo>2</codigo>
         <codigoPorcentaje>4</codigoPorcentaje>
-        <baseImponible>520.00</baseImponible>
+        <baseImponible>1092.00</baseImponible>
         <tarifa>15</tarifa>
-        <valor>78.00</valor>
+        <valor>163.80</valor>
       </totalImpuesto>
     </totalConImpuestos>
     <propina>0.00</propina>
-    <importeTotal>598.00</importeTotal>
+    <importeTotal>1255.80</importeTotal>
     <moneda>DOLAR</moneda>
-    <placa>XYZ-9876</placa>
+    <placa>HILUX-ERROR</placa> <!-- DISCREPANCIA CON LA ORDEN (PDA-1091) -->
     <pagos>
       <pago>
         <formaPago>20</formaPago>
-        <total>598.00</total>
+        <total>1255.80</total>
       </pago>
     </pagos>
   </infoFactura>
   <detalles>
     <detalle>
-      <codigoPrincipal>9143</codigoPrincipal>
-      <descripcion>Espejo Retrovisor</descripcion>
+      <codigoPrincipal>5152</codigoPrincipal>
+      <descripcion>Puerta Delantera</descripcion>
       <cantidad>1.00000</cantidad>
-      <precioUnitario>260.00</precioUnitario>
+      <precioUnitario>1092.00</precioUnitario> <!-- Coincide con tarifario para Hilux 2026 -->
       <descuento>0.00</descuento>
-      <precioTotalSinImpuesto>260.00</precioTotalSinImpuesto>
+      <precioTotalSinImpuesto>1092.00</precioTotalSinImpuesto>
       <impuestos>
         <impuesto>
           <codigo>2</codigo>
           <codigoPorcentaje>4</codigoPorcentaje>
           <tarifa>15</tarifa>
-          <baseImponible>260.00</baseImponible>
-          <valor>39.00</valor>
-        </impuesto>
-      </impuestos>
-    </detalle>
-    <detalle>
-      <codigoPrincipal>9143</codigoPrincipal>
-      <descripcion>Espejo Retrovisor</descripcion>
-      <cantidad>1.00000</cantidad>
-      <precioUnitario>260.00</precioUnitario>
-      <descuento>0.00</descuento>
-      <precioTotalSinImpuesto>260.00</precioTotalSinImpuesto>
-      <impuestos>
-        <impuesto>
-          <codigo>2</codigo>
-          <codigoPorcentaje>4</codigoPorcentaje>
-          <tarifa>15</tarifa>
-          <baseImponible>260.00</baseImponible>
-          <valor>39.00</valor>
+          <baseImponible>1092.00</baseImponible>
+          <valor>163.80</valor>
         </impuesto>
       </impuestos>
     </detalle>
   </detalles>
   <infoAdicional>
-    <campoAdicional nombre="OrderID">OI-2026-1090</campoAdicional>
-    <campoAdicional nombre="PLACA">XYZ-9876</campoAdicional>
-    <campoAdicional nombre="MARCA">Chevrolet</campoAdicional>
-    <campoAdicional nombre="MODELO">Onix</campoAdicional>
+    <campoAdicional nombre="OrderID">OI-2026-1091</campoAdicional>
+    <campoAdicional nombre="PLACA">HILUX-ERROR</campoAdicional>
+    <campoAdicional nombre="MARCA">Toyota</campoAdicional>
+    <campoAdicional nombre="MODELO">Hilux</campoAdicional> <!-- DISCREPANCIA CON LA ORDEN (Corolla) -->
   </infoAdicional>
 </factura>
