@@ -380,3 +380,9 @@ Estudiante de la Maestría en Inteligencia Artificial.
 * Retrieval-Augmented Generation (RAG)
 
 ---
+# CONTACTO
+
+## Información de Contacto
+
+- **Correo electrónico:** mikasomk34@hotmail.com  
+- **Teléfono:** +593 0996632058
