@@ -315,10 +315,12 @@ Confirmar que existan:
 ## 3. Ejecutar auditoría
 
 ```bash
-python auditor_siniestros.py
+IARAG_GENERATION.ipynb
 ```
 
-Por defecto se audita el siniestro en funcion del nodod procioan l que al oriden d eignreso.:
+En este notebook debe modificarse el enfoque de auditoría para que el análisis se realice mediante preguntas dinámicas generadas por el usuario.
+
+Por defecto, actualmente se audita el siniestro en función del nodo relacionado con la orden de ingreso; sin embargo, el sistema debe permitir que el usuario pueda modificar el texto de consulta y personalizar las preguntas según el tipo de validación o investigación que desee realizar.
 
 ```text
 Texto: Orden de ingreso OI-2026-1088
@@ -328,6 +330,15 @@ LLM: orderId
 ```
 
 ---
+## Recursos del Proyecto
+
+El proyecto incluye recursos complementarios para facilitar la comprensión técnica y funcional de la solución **Graph AutoShield** orientada a la detección de fraude en seguros mediante IA, arquitectura RAG y análisis de grafos con Neo4j.
+
+- 🎙️ **`PODCAST_Graph-Autoshield_contra_el_fraude_en_seguros.m4a`**  
+  Podcast explicativo que presenta de manera dinámica el funcionamiento del sistema, el análisis de relaciones sospechosas y el uso de IA para la detección de fraude.
+
+- 📄 **`Reporte_Tecnico_Graph-Autoshield.pdf`**  
+  Documento técnico resumido que describe la arquitectura, componentes principales, flujo de procesamiento, modelado en grafos y objetivos del proyecto.
 
 # 📦 Dependencias Observadas
 
